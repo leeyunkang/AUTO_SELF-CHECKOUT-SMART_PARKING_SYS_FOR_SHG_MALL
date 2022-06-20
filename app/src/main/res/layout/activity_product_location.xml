@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductLocation">
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup11"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup12"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup21"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup22"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp31"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup31"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup32"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp41"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup41"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp42"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup42"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp51"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup51"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp52"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup52"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp61"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup61"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryUp62"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/groceryup62"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown11"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown12"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown21"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown22"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown31"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown31"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown32"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown41"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown41"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/groceryDown42"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerydown42"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen11"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen12"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen21"
+
+        ></com.ortiz.touchview.TouchImageView>
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen22"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen31"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen31"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/frozen32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frozen32"
+
+        ></com.ortiz.touchview.TouchImageView>
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce1"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce2"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce3"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce4"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce5"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/produce6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/produce6"
+
+        ></com.ortiz.touchview.TouchImageView>
+
+</RelativeLayout>
+

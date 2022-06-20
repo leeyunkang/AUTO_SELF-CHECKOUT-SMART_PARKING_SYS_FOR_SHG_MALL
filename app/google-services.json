@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "710624594761",
+    "firebase_url": "https://ezimart-5a648-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ezimart-5a648",
+    "storage_bucket": "ezimart-5a648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710624594761:android:1d31b4a2998cff98336898",
+        "android_client_info": {
+          "package_name": "com.example.ezimart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710624594761-6u0inc5n30t7ip96167b2762ddsbdfs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX87_-0ZeSVOoEyCLisSaUatdwtIWSFZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710624594761-6u0inc5n30t7ip96167b2762ddsbdfs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textview_contactInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Contact Information"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="full name"
+        android:id="@+id/fullNameRegister_edt"
+        android:minHeight="48dp"
+        android:inputType="textPersonName"
+        android:layout_below="@id/textview_contactInformation"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile number"
+        android:id="@+id/mobileNumberRegister_edt"
+        android:minHeight="48dp"
+        android:inputType="textPhonetic"
+        android:layout_below="@id/fullNameRegister_edt"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:id="@+id/addressRegister_edt"
+        android:minHeight="48dp"
+        android:inputType=""
+        android:layout_below="@id/mobileNumberRegister_edt"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/emailRegister_edt"
+        android:minHeight="48dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/addressRegister_edt"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Information"
+        android:id="@+id/textview_userAccount"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/emailRegister_edt"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameRegister_edt"
+        android:hint="username"
+        android:inputType="textFilter"
+        android:layout_below="@id/textview_userAccount"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameRegister_edt"
+        android:id="@+id/passwordRegister_edt"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:layout_below="@id/passwordRegister_edt"
+        android:id="@+id/confirm_password"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:text="register"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/registerUser_btn" />
+
+</RelativeLayout>

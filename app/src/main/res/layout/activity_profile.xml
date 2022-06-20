@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="30dp"
+        android:text="USER PROFILE"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FULL NAME"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profilfullnameid"
+        app:layout_constraintTop_toTopOf="@id/profilfullnameid"
+        app:layout_constraintBottom_toBottomOf="@id/profilfullnameid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NUMBER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profilmobileid"
+        app:layout_constraintTop_toTopOf="@id/profilmobileid"
+        app:layout_constraintBottom_toBottomOf="@id/profilmobileid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profiladdressid"
+        app:layout_constraintTop_toTopOf="@id/profiladdressid"
+        app:layout_constraintBottom_toBottomOf="@id/profiladdressid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profilemailid"
+        app:layout_constraintTop_toTopOf="@id/profilemailid"
+        app:layout_constraintBottom_toBottomOf="@id/profilemailid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profilusernameid"
+        app:layout_constraintTop_toTopOf="@id/profilusernameid"
+        app:layout_constraintBottom_toBottomOf="@id/profilusernameid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/profilpasswordid"
+        app:layout_constraintTop_toTopOf="@id/profilpasswordid"
+        app:layout_constraintBottom_toBottomOf="@id/profilpasswordid"
+        />
+
+    <EditText
+        android:id="@+id/profilfullnameid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="full name"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/profilmobileid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="mobile number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilfullnameid"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/profiladdressid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilmobileid"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/profilemailid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profiladdressid"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/profilusernameid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilemailid"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:id="@+id/profilpasswordid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="password"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilusernameid"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/logoutProfile_cv"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="30dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/logoutProfile_btn"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_logout_24"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutProfile_txt"
+        app:layout_constraintStart_toStartOf="@id/logoutProfile_cv"
+        app:layout_constraintEnd_toEndOf="@id/logoutProfile_cv"
+        app:layout_constraintTop_toBottomOf="@id/logoutProfile_cv"
+        android:text="Logout"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

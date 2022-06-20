@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParkingPayActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topStart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/background_top_start"
+        app:layout_constraintBaseline_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="344dp"
+            android:text="Pay Parking Fees"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/top_start" />
+
+        <TextView
+            android:id="@+id/Intime"
+            android:layout_width="229dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="164dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/teal_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/carPlatePayTxv"
+            android:layout_width="229dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="164dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/teal_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.337">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="313dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="112dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/teal_200"
+        android:hint="Pay the parking fees"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="156dp"
+        android:baselineAlignBottom="true"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grocery" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="108dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topStart_layout"
+        app:layout_constraintVertical_bias="0.595">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
